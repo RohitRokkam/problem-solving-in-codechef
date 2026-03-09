@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int r,o,c;
+	if(!(cin>>r>>o>>c)) return 0;
+	int rem=20-o;
+	int max=rem*36;
+	int total=c+max;
+	if(total>r){
+	    cout<<"yes"<<endl;
+	}
+	else{
+	    cout<<"no"<<endl;
+	}
+
+}
